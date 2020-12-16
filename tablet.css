@@ -1,0 +1,48 @@
+.header{
+    height: 18vh;
+}
+
+.header > img{
+    width: 15.5vw;
+    height: 15.5vh;
+}
+
+.herocard img{
+    width: 85%;
+}
+
+.column h1{
+    font-size: 3.2vw;
+}
+
+.row img{
+    width: 40%;
+    height: 40%;
+}
+
+.hiddenItem{
+    margin: 3vh 0 0 0;
+    display: block;
+}
+.hiddenText{
+    display: flex;
+}
+
+.column{
+    margin: 2.5% 5vw 2.5% 5vw;
+}
+
+.txtContainer{
+    display: flex;
+    width: calc(50% - 6vw);
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 3vw 0 3vw;
+}
+
+.txtContainer h1{
+    min-width: 37.5rem;
+    position: static;
+    display: block;
+}

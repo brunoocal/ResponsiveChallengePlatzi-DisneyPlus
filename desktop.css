@@ -1,0 +1,62 @@
+.header{
+    height: 13.5vh;
+}
+
+.header > img{
+ height: 10vh;
+ width: 10vw;
+ position: static;
+}
+
+.tools{
+    display: none;
+}
+.desktop-tools{
+    font-size: 0.75vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    fill: white;
+    width: 70%;
+}
+
+.svgcontainer svg{
+ width: 3.5vw;
+ height: 3.5vh;
+}
+
+.svgcontainer{
+    margin: 0 0.5vw 0 0.5vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.desktop-tools h1{
+    color: white;
+    font-family: 'Disney', sans-serif;
+}
+
+.herocard img{
+    width: 85%;
+}
+
+.column h1{
+    font-size: 2vw;
+}
+
+.row img{
+    height: 22.5%;
+    width: 22.25%;
+    margin: 0 1vw 0 1vw;
+}
+
+.txtContainer{
+    width: 18%;
+}
+
+.hiddenItem, .hiddenText{
+    display: none;
+}
+.desktopimg{
+    display: block;
+}
